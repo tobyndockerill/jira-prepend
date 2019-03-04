@@ -19,7 +19,7 @@ endfunction
 
 function! PrependTicketNumber()
 	if !s:ValidTicketSet() | return | endif
-	let jira_prepend_command = "normal! /" . g:jira_prepend_ticket_pattern . "\<cr>veeeyggpA "
+	let jira_prepend_command = "normal! /" . g:jira_prepend_ticket_pattern . "\<cr>veeeyggpA: "
 	if exists("g:jira_prepend_custom_message")
 		let jira_prepend_command = jira_prepend_command . g:jira_prepend_custom_message
 	endif

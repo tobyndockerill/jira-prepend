@@ -10,6 +10,10 @@ commit messages with the name of the JIRA ticket that you are working on
 then JIRA Prepend makes it easy to extract the ticket number from the branch name 
 and prepend it automatically when committing. 
 
+This differs from
+[mshirlaw/jira-prepend](https://github.com/mshirlaw/jira-prepend) only in that
+it appends a colon ":" to the JIRA ticket number.
+
 Usage
 -----
 
